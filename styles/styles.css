@@ -1,0 +1,82 @@
+body {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ffff;
+    width: 100vw;
+    height: 99px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+
+
+.header__name > span {
+    font-size: 31px;
+    font-family: "DM Sans" ;
+    font-weight: bold ;
+    gap: 11px;
+}
+
+nav{
+  display: flex;
+  gap: 36px;
+  width: 414px;
+  height: 30px;
+}
+
+nav > a {
+    font-size: 18px;
+    text-decoration: none;
+    font-family: "Inter";
+    color: #000000;
+}
+
+ 
+
+
+.header__name {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.header__name img {
+    width: 36px;
+    height: 40px;
+}
+
+.header__content {
+    display: flex;
+    align-items: center;
+
+    gap: 26px;
+    width: 270px;
+    height: 67px;
+    
+}
+
+.header__content  form > button {
+    background-color: #4457FF;
+    color: #ffff;
+    font-size: 20px;
+    font-family: "Inter";
+    border: none;
+    width: 204px;
+    height: 67px;
+    border-radius: 60px;
+}
+
+
+.header__content > a {
+    text-decoration: none;
+    font-family: "Inter";
+    font-size: 18px;
+    color: #000000;
+
+}
