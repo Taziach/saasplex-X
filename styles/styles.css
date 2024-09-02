@@ -1,11 +1,12 @@
 body {
-    margin: 0 auto;
+    margin: 0 ;
     box-sizing: border-box;
+    flex-direction: column;
 }
 
 header {
     background-color: #ffff;
-    width: 100vw;
+    width: 1440px;
     height: 99px;
     display: flex;
     flex-wrap: wrap;
@@ -15,7 +16,6 @@ header {
 }
 
 
-
 .header__name > span {
     font-size: 31px;
     font-family: "DM Sans" ;
@@ -23,12 +23,14 @@ header {
     gap: 11px;
 }
 
+
 nav{
   display: flex;
   gap: 36px;
   width: 414px;
   height: 30px;
 }
+
 
 nav > a {
     font-size: 18px;
@@ -38,10 +40,9 @@ nav > a {
 }
 
  
-
-
 .header__name {
     display: flex;
+    text-align: center;
     align-items: center;
     gap: 11px;
 }
@@ -53,6 +54,7 @@ nav > a {
 
 .header__content {
     display: flex;
+    justify-content: center;
     align-items: center;
 
     gap: 26px;
@@ -80,3 +82,89 @@ nav > a {
     color: #000000;
 
 }
+
+.maincontent__ferst {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    gap: 40px;
+    width: 1440px;
+    flex-wrap: wrap;
+    height: 797px;
+}
+
+.ferst__content {
+    
+    
+    width: 477px;
+    height:  480px;
+
+}
+
+.ferst__content > form {
+    background-color: #F3F5FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 330px;
+
+    border-radius: 30px;
+    
+    height: 59px;
+}
+
+.ferst__content > form button {
+    background-color: #4457FF;
+    color: #ffff;
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: bold;
+    width: 77px;
+    height: 35px;
+    border: none;
+    border-radius: 46px;
+}
+
+.ferst__content > form span {
+    color: #4457FF;
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.ferst__content > div  h1 {
+    width: 477px;
+    height: 222px;
+    font-size: 58px;
+    font-family: "Inter";
+}
+
+
+.ferst__content > div  h1 + p {
+    color: #7A7D9C;
+    font-family: Inter;
+    width: 477px;
+    height: 60px;
+}
+
+
+.maincontent__ferst  img {
+    width: 803px;
+    height: 797px;
+    
+    
+}
+
+.ferst__content button {
+    background-color: #4457FF;
+    color: #ffff;
+    font-size: 20px;
+    font-family: "Inter";
+    border: none;
+    width: 204px;
+    height: 67px;
+    border-radius: 60px;
+
+}
+
