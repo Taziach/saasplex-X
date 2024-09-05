@@ -1,9 +1,30 @@
+
+/* || General styles */
 body {
     margin: 0 ;
     box-sizing: border-box;
     flex-direction: column;
 }
 
+/* ... */
+
+
+/*UTILITIES*/
+
+ .blueButton {
+    background-color: #4457FF;
+    color: #ffff;
+    font-size: 20px;
+    font-family: "Inter";
+    border: none;
+    width: 204px;
+    height: 67px;
+    border-radius: 60px;
+
+ }
+
+
+/* \\ Header styles */
 header {
     background-color: #ffff;
     width: 1440px;
@@ -56,32 +77,22 @@ nav > a {
     display: flex;
     justify-content: center;
     align-items: center;
-
     gap: 26px;
     width: 270px;
     height: 67px;
     
 }
 
-.header__content  form > button {
-    background-color: #4457FF;
-    color: #ffff;
-    font-size: 20px;
-    font-family: "Inter";
-    border: none;
-    width: 204px;
-    height: 67px;
-    border-radius: 60px;
-}
-
-
 .header__content > a {
     text-decoration: none;
     font-family: "Inter";
     font-size: 18px;
     color: #000000;
-
 }
+/* ... */
+
+
+/* ** MainContent__Ferst */
 
 .maincontent__ferst {
     display: flex;
@@ -94,11 +105,8 @@ nav > a {
 }
 
 .ferst__content {
-    
-    
     width: 477px;
     height:  480px;
-
 }
 
 .ferst__content > form {
@@ -108,9 +116,7 @@ nav > a {
     align-items: center;
     gap: 16px;
     width: 330px;
-
     border-radius: 30px;
-    
     height: 59px;
 }
 
@@ -164,4 +170,23 @@ nav > a {
     height: 67px;
     border-radius: 60px;
 }
+
+.maincontent-button:hover {
+    background-color: rgba(74, 96, 116, 0.348);
+    color: #000000;
+    border-radius: 2px solid #fff;
+
+}
+
+.maincontent-button:active {
+    background-color: #4457FF;
+}
+
+/* ... */
+
+.maincontent__second {
+    background-color: #F3F5FF;
+}
+
+
 
